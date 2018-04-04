@@ -63,7 +63,7 @@ weights16 = data_file[15][0].transpose((3,2,0,1))
 bias16 = data_file[15][1]
 
 #connecting the tensor after last pooling layer with the first fully-connected layer
-#for an explanation watch the video (youtube link with time stamp)
+#here is the link to the video where this part is explained (https://youtu.be/kvXHOIn3-8s?t=3m38s)
 fc1_w = data_file[16][0].reshape((4,4,512,4096))
 fc1_w = fc1_w.transpose((3,2,0,1))
 fc1_w = fc1_w.reshape((4096,8192))
