@@ -2,9 +2,9 @@
 Convert a model from TensorFlow to Caffe.
 
 The code has been created during this video series:  
-link (part 1)  
-link (part 2)  
-link (part 3)
+[Part 1 - Creating the architectures](https://www.youtube.com/watch?v=9iJheyF7x4Y)  
+[Part 2 - Exporting the parameters](https://www.youtube.com/watch?v=LNsEfZV_24c)  
+[Part 3 - Adapting and comparing](https://www.youtube.com/watch?v=kvXHOIn3-8s)  
 
 In the videos, the creation of the code has been commented so if you want to get more information about the code they will be useful.
 
